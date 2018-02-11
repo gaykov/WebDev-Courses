@@ -1,0 +1,15 @@
+public static int[] sort(int[] mas){
+        int min, tmp;
+        for (int i = 0; i < mas.length - 1; i++) {
+            min = i;
+            for(int next = i+1; next < mas.length; next++){
+                if( mas[next] < mas[min]){
+                    min = next;
+                }
+            }
+            tmp = mas[min];
+            mas[min] = mas[i];
+            mas[i] = tmp;
+        }
+        return mas;
+    }
