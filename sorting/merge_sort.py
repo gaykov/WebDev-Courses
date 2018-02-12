@@ -14,7 +14,6 @@ def merge_sort(list_of_values):
 
 def merge(left_half, right_half):
     result = []
-
     while len(left_half) > 0 and len(right_half) > 0:
         if left_half[0] <= right_half[0]:
             result.append(left_half[0])
@@ -22,12 +21,10 @@ def merge(left_half, right_half):
         else:
             result.append(right_half[0])
             right_half = right_half[1:]
-
     if len(left_half) > 0:
         result += left_half
     if len(right_half) > 0:
         result += right_half
-
     return result
 
 
