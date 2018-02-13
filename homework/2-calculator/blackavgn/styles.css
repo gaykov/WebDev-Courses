@@ -1,0 +1,30 @@
+body{
+  background-color: #22B2EC;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.calculator{
+
+}
+.upper {
+
+  width: 200px;
+  height: 80px;
+  background-color: #4B5665;
+  border-radius: 10px 10px 0 0;
+}
+.down {
+
+  width: 200px;
+  height: 200px;
+  background-color: #F2F2F2;
+  border-radius: 0 0 10px 10px;
+}
