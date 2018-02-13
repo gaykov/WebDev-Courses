@@ -1,0 +1,27 @@
+<html>
+<script>
+var array=[5,7,2,8,1,9,3];
+alert("Initial: " + array);
+
+bubbleSorting(array);
+
+alert("Result: " + array);
+
+function bubbleSorting(arr, length){
+    if (length == undefined){
+        length = arr.length;
+    }
+    for (var i = 1; i < length; i++) {
+        if(arr[i] < arr[i-1]){
+            var temp = arr[i-1];
+            arr[i-1] = arr[i];
+            arr[i] = temp;
+        }
+    }
+
+    if (--length >= 2){
+        bubbleSorting(arr, length);
+    }
+}
+</script>
+</html>
