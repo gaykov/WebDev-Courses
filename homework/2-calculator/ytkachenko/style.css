@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica');
+
 body{
     margin: 0;
     background: #22B2EC;
@@ -11,13 +13,14 @@ html, body {
     height: 100%;
 }
 
+
 .calculator_body {
     background: white;
-    width: 18%;
+    width: 15%;
     height: 45%;
     border-radius: 10px;
     font-family: Helvetica ;
-
+	
 }
 
 .calculator_body .display {
@@ -36,7 +39,7 @@ html, body {
 
 .calculator_body .display .multiply {
     font-size: 50%;
-
+	line-height: 3;
 }
 
 .calculator_body .display .result {
