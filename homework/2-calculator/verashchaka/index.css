@@ -1,0 +1,81 @@
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+.custom_body{
+    width: 100%;
+    height: 100vh;
+    background: #22B2EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle_output {
+    width: 15%;
+    height: 100px;
+    background: #4B5665;
+    border-radius: 10px 10px 0 0;
+}
+
+.rectangle_input{
+    width: 15%;
+    height: 300px;
+    background: white;
+    font-size: 0;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.rectangle_output input {
+    background: none;
+    width: 99%;
+    border: none;
+    direction: rtl;
+    outline: none;
+    border-radius: 10px;
+}
+
+.for_calculate{
+    color: #ADB5B8;
+    font-size: 25px;
+}
+
+.result{
+    font-size: 50px;
+    color: white;
+}
+
+.btn_for_input{
+    width: 25%;
+    height:20%;
+    background: white;
+    border: 1px solid #F2F2F2;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    color: #54656C;
+}
+
+.btn_for_input_numbers{
+    width: 25%;
+    height:20%;
+    background: white;
+    border: 1px solid #F2F2F2;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    color: #ADB5B8;
+}
+
+.left_last_button{
+    border-radius: 0 0 0 10px;
+}
+
+.right_last_button{
+    border-radius: 0 0 10px 0;
+}
+button:active, button:focus {
+    outline: none;
+}
