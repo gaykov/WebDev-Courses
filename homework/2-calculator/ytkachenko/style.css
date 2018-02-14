@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: #22B2EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+.calculator_body {
+    background: white;
+    width: 18%;
+    height: 45%;
+    border-radius: 10px;
+    font-family: Helvetica ;
+
+}
+
+.calculator_body .display {
+    background: #4B5665;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px 10px 0 0 ;
+    box-sizing: border-box;
+    text-align: right;
+    vertical-align: center;
+    padding: 10px;
+    font-size: 4.5vh;
+    color: white;
+
+}
+
+.calculator_body .display .multiply {
+    font-size: 50%;
+
+}
+
+.calculator_body .display .result {
+    font-weight: 500;
+
+}
+
+.calculator_body .digits {
+    box-sizing: border-box;
+    height: 70%;
+
+
+}
+
+.calculator_body .digits .row {
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 20%;
+}
+
+
+.calculator_body .digits .row span {
+    box-sizing: border-box;
+    float: left;
+    color: lightgray;
+    border-right: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    font-size: 3vh;
+}
+
+.calculator_body .digits .row span:last-child {
+    border-right: none;
+}
+
+.calculator_body .digits .row .sign {
+    color: grey;
+}
+
+
+
