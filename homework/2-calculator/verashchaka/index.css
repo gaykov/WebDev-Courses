@@ -7,7 +7,7 @@
 .custom_body{
     width: 100%;
     height: 100vh;
-    background: #54656C;
+    background: #22B2EC;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@
 .rectangle_output {
     width: 15%;
     height: 100px;
-    background: #3F3F3F;
+    background: #4B5665;
     border-radius: 10px 10px 0 0;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .for_calculate{
-    color: #C0C0C0;
+    color: #ADB5B8;
     font-size: 25px;
 }
 
@@ -53,19 +53,20 @@
     width: 25%;
     height:20%;
     background: white;
-    border: 1px solid #C0C0C0;
+    border: 1px solid #F2F2F2;
     font-family: "Roboto Slab";
     font-size: 20px;
+    color: #54656C;
 }
 
 .btn_for_input_numbers{
     width: 25%;
     height:20%;
     background: white;
-    border: 1px solid #C0C0C0;
+    border: 1px solid #F2F2F2;
     font-family: "Roboto Slab";
     font-size: 20px;
-    color: grey;
+    color: #ADB5B8;
 }
 
 .left_last_button{
@@ -74,4 +75,7 @@
 
 .right_last_button{
     border-radius: 0 0 10px 0;
+}
+button:active, button:focus {
+    outline: none;
 }
