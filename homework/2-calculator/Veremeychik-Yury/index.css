@@ -1,0 +1,77 @@
+    * {
+        box-sizing: border-box;
+    }    
+
+    html {
+		min-height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    }
+
+    body {
+    	background-color: #22B2EC;
+    	margin: 0;
+    	padding: 0;
+    	font-family: helvetica;
+    	height: 100%;
+    }
+
+    .component {
+    	height: 400px;
+    	width: 280px;
+    	box-shadow: -1px 38px 49px -33px #3F3F3F;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .component-display {
+    	background: #4B5665;
+    	height: 25%;
+    	display: flex;
+    	flex-direction: column;
+    	text-align: right;
+    	justify-content: space-around;
+    	padding-right: 20px;
+    }
+
+    .component-button-panel {
+    	background: #FFFFFF;
+    	height: 75%;
+    	border-radius: 0 0 10px 10px;
+    }
+
+    .comp1 {
+    	font-size: 20px;
+    	color: #ADB5B8;
+    }
+
+    .comp2 {
+    	font-size: 40px;
+    	color: white;
+    }
+
+    .component-button {
+    	width: 25%;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	font-size: 25px;
+    	color: #ADB5B8;
+    	border-right: 1px solid #F2F2F2;
+    }
+
+    .component-button:last-child {
+        border: 0;
+    }
+
+	.button-panel {
+		display: flex;
+		height: 20%;
+		border-bottom: 1px solid #F2F2F2;
+	}
+
+	.button-panel:last-child {
+		border-bottom: 0;
+	}
+
