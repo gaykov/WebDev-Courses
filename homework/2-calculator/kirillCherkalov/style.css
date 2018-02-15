@@ -1,0 +1,76 @@
+body {
+	font-family: "Helvetica-Bold", "Arial", sans-serif;
+	font-size: 24px;
+	line-height: 45px;
+	padding: 0;
+	margin: 0;
+	color: lightgray;
+	background-color: #22b2ec;
+}
+
+.container {
+	display: flex;
+	margin: 10% auto;
+	width: 15%;
+	flex-wrap: wrap;
+	
+}
+
+.out {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #4b5665;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.first-line,
+.second-line{
+	width: 100%;
+	text-align: right;
+}
+
+.first-line {
+	font-size: 1.2rem;
+	line-height: 1.4rem;
+	padding: 0.5rem;
+	color: #adb5b8;
+}
+
+.second-line {
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	padding: 0.5rem;
+	color: #ffffff;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.button {
+	width: 25%;
+	text-align: center;
+	box-shadow: inset 0px 0px 0px 0.05rem #f2f2f2;
+	background-color: #ffffff;
+}
+
+.button.item-17{
+	border-bottom-left-radius: 10px;
+}
+
+.button.item-20{
+	border-bottom-right-radius: 10px;
+}
+
+.button.item-1,
+.button.item-2,
+.button.item-3,
+.button:nth-child(4n) {
+	color: #54656c;
+}
+/*Неохота нижнию тень добавлять*/
