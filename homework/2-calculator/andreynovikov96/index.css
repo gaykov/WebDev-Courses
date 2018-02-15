@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #22B2EC;   
+}
+
+.calculator {
+    margin: auto;
+    width: 250px;
+}
+
+.screen_calculator {
+    background-color: #4b5665; 
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.example  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    text-align: right;
+    color: #adb5b8;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.result  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.keyboard_calculator {
+    background-color: #fff;
+    box-shadow: 1px 45px 30px -28px #54656c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0;
+}
+
+button {
+    width: 25%;
+    background-color: #fff;
+    color: #54656c;
+    border: 1px solid #f2f2f2;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+.number_light {
+    color: #adb5b8;
+    font-weight: 100;
+}
+
+.radius_left {
+    border-bottom-left-radius: 10px;
+}
+
+.radius_right {
+    border-bottom-right-radius: 10px;
+}
