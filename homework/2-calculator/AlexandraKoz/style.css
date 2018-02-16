@@ -1,0 +1,26 @@
+body {
+   background-color: #22B2EC;
+   margin: 0;
+}
+
+#calculator {
+  width: 272px;
+  height: 350px;
+  background: white;
+  border-radius: 0 0 10px 10px;
+  margin: 150px auto;
+}
+#top {
+  height: 105px;
+  width:  272px;
+  background: #54656C;
+}
+
+#keys {
+  height: 47px;
+   width: 65px;
+}
+#numbers {
+  height: 47px;
+  width: 65px;
+}
