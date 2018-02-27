@@ -1,35 +1,29 @@
-#include "stdafx.h"
-#include "iostream"
-using namespace std;
+#include <iostream.h>
 
+int main() {
 
-int main()
-{
-	int *array;
-	int size;
-	cin >> size;
-	array = new int[size];
-	for (int i = 0; i < size; i++)
-	{
-		cout << "array[" << i << "]=";
-		cin >> array[i];
-	}
-	int t;
-	for (int i = 0; i < size - 1; i++) {
-		for (int j = 0; j < size - i - 1; j++)
-		{
-			if (array[j] > array[j + 1])
-			{
-				t = array[j];
-				array[j] = array[j + 1];
-				array[j + 1] = t;
-			}
-		}
-	}
-	for (int i = 0; i < size; i++)
-	{
-		cout << array[i] << " " << endl;
-	}
-	delete[]array;
-    return 0;
+  double *a;
+  int num, ram;
+
+  cout<<"Enter number of elements"<<endl;
+  cin>>num;
+  a = new double[num];
+
+  for (int i = 0; i < num-1; i++) a[i] = random(100);
+
+  for (int i = 0; i < num; i++) cout<<a[i]<<endl;
+  for(int k = 0; k < num; k++) {
+        for (int i = 0; i < num-1; i++) {
+                if(a[i]>a[i+1]) {
+                        ram = a[i+1];
+                        a[i+1] = a[i];
+                        a[i] = ram;
+                }
+        }
+  }
+
+  cout<<endl;
+  for (int i = 0; i < num; i++) cout<<a[i]<<endl;
+  delete []a;
+  system("PAUSE");
 }
